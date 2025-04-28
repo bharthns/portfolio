@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Simple Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #74ebd5, #ACB6E5); /* Light pleasant gradient */
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 15px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 30px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #0077cc;
+        }
+
+        section {
+            background: rgba(255, 255, 255, 0.85);
+            margin: 20px auto;
+            padding: 30px;
+            max-width: 800px;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h3 {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style-position: inside;
+            text-align: left;
+            display: inline-block;
+        }
+
+        .project {
+            margin-top: 20px;
+        }
+
+        .view-project {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #0077cc;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .view-project:hover {
+            background-color: #005fa3;
+        }
+
+        footer {
+            margin-top: 40px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#accomplishments">Accomplishments</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I am a passionate developer focused on building high-quality websites and applications.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>Python</li>
+            <li>Git & GitHub</li>
+            <li>Java</li>
+        </ul>
+    </section>
+
+    <section id="accomplishments">
+        <h2>Accomplishments</h2>
+        <ul>
+            <li>Developed a fully functional fire rescue robot using RASPBERRY PI.</li>
+            <li>Contributed to open-source projects.</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Calculator</h3>
+            <p>A simple calculator built using HTML, CSS, and JavaScript.</p>
+            <a href="calculator.html" class="view-project">View Project</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:bharathns0506@gmail.com">bharathns0506@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bharath NS. All rights reserved.</p>
+    </footer>
+</body>
+</html>
